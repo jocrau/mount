@@ -7,7 +7,9 @@
   :source-paths ["src"]
 
   :dependencies [] ;; for visual clarity
-  
+
+  :repl-options {:init-ns core}
+
   :profiles {:dev {:source-paths ["dev" "dev/clj" "test/clj"]
                    :dependencies [[org.clojure/clojure "1.7.0"]
                                   [org.clojure/clojurescript "1.7.170"]; :classifier "aot"]

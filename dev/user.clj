@@ -1,3 +1,3 @@
 (defn dev []
-  (require 'dev)
+  (require 'core)
   (in-ns 'dev))
